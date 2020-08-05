@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import MediaCard from './MediaCard';
+import Gate from './Gate';
 
 ReactDOM.render(
   
-  <MediaCard title="Web Seminar" body="Web Developement Seminar by React" image_url='./logo192.png'/>,
+  <Gate isOpen={true}/>,
+  
+  
+  /*<App name="aqib"/>,
+  <MediaCard title="Web Seminar" body="Web Developement Seminar by React" image_url='./logo192.png'/>,*/
   document.getElementById('root')
 );
 
