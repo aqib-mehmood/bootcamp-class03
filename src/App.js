@@ -9,6 +9,9 @@ return <h1>
       </h1>
 }*/
 
+
+/* Plain Function */
+
 function App(props) {
   return <div className="myclass">
           Hello World by <strong> {props.name} </strong>
@@ -34,5 +37,35 @@ function App(props) {
 
         </div>
   }
+
+/*using constant holding anonymous fucntion.*/
+/*
+const App = function (props) {
+  return <div>using a constant holding anonymous function.</div>
+}*/
+
+
+
+
+/* Now instead of using function keyword use arrow(=>) keyword. */
+/*
+const App = (props) => {
+  return <div>hello {props.name}; using constant holding an arrow function anonymous fucntion.</div>
+}
+*/
+
+
+/*Now skip return keyword and just use round braces instaed of curly braces */
+/*
+const App = (props) => (
+  <div>Hi.. without using return keyword function.</div>
+)*/
+
+
+/*Now if a function is small u can write it in one line as well */
+
+/*
+const App = (props) => <div>Bye..! using single line function.</div>
+*/
 
 export default App;
