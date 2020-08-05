@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './custom.css';
 
 /* *This is also the way to call the properties.
 function App({name,age}) {
@@ -9,7 +10,7 @@ return <h1>
 }*/
 
 function App(props) {
-  return <div>
+  return <div className="myclass">
           Hello World by <strong> {props.name} </strong>
           <div>
             <h2>Ordered List</h2>
