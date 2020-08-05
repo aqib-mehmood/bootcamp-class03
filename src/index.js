@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import MediaCard from './MediaCard';
 
 ReactDOM.render(
-  <App name="aqib" age={20}/>,
+  
+  <MediaCard title="Web Seminar" body="Web Developement Seminar by React" image_url='./logo192.png'/>,
   document.getElementById('root')
 );
 

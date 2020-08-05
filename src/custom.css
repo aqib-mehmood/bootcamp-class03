@@ -10,3 +10,15 @@
 .myclass ul li {
     color: rgb(16, 211, 26);
 }
+
+
+.media_card{
+    text-align: center;
+}
+.title_card{
+    
+    color: crimson;
+}
+.body_text{
+    color: cornflowerblue;
+}
