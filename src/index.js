@@ -7,13 +7,13 @@ import MediaCard from './MediaCard';
 import Gate from './Gate';
 
 ReactDOM.render(
+  <div>
+    <App name="aqib"/>
+    <MediaCard title="Web Seminar" body="Web Developement Seminar by React" image_url='./logo192.png'/>
+    <Gate isOpen={true}/>
+  </div>,
   
-  <Gate isOpen={true}/>,
-  
-  
-  /*<App name="aqib"/>,
-  <MediaCard title="Web Seminar" body="Web Developement Seminar by React" image_url='./logo192.png'/>,*/
-  document.getElementById('root')
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
