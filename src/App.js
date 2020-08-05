@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 /* *This is also the way to call the properties.
@@ -11,8 +10,27 @@ return <h1>
 
 function App(props) {
   return <div>
-          Hello World using AppJs by {props.name} Age = {props.age}
-          <div>This is a child div</div>
+          Hello World by <strong> {props.name} </strong>
+          <div>
+            <h2>Ordered List</h2>
+            <ol>
+              <li>One</li>
+              <li>two</li>
+              <li>three</li>
+              <li>four</li>
+            </ol>
+            <h2>Unordered List</h2>
+            <ul>
+              <li>One</li>
+              <li>two</li>
+              <li>three</li>
+              <li>four</li>
+            </ul>
+          </div>
+          
+          <p>Here we have a mathematical expression = 2 + 5 = {2+5}</p>
+          
+
         </div>
   }
 
