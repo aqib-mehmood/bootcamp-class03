@@ -22,3 +22,17 @@
 .body_text{
     color: cornflowerblue;
 }
+
+.room{
+    height: 100vh;
+}
+.dark{
+    
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
